@@ -1,3 +1,4 @@
+require 'pry'
 def roll_call_dwarves(dwarf)
   dwarf.map.with_index(1) do |name, index| 
     puts "#{index}. #{name}"
@@ -9,7 +10,8 @@ def summon_captain_planet(calls)
   calls.map do |elements|
     puts "#{calls}!"
   end
-  
+  binding.pry
+  calls
 end
 
 def long_planeteer_calls# code an argument here
