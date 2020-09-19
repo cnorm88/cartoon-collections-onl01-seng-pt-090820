@@ -10,8 +10,8 @@ def summon_captain_planet(calls)
   calls.map do |elements|
     puts "#{calls}!"
   end
-  binding.pry
   calls
+  binding.pry
 end
 
 def long_planeteer_calls# code an argument here
