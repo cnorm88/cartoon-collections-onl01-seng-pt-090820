@@ -8,7 +8,7 @@ def summon_captain_planet(calls)
   planet_calls = []
   calls.map do |elements|
     puts "#{calls}!"
-  
+  end
 end
 
 def long_planeteer_calls# code an argument here
