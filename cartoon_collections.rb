@@ -10,8 +10,6 @@ def summon_captain_planet(calls)
     "#{elements}!"
   end
 end  
-  binding.pry
-
 
 def long_planeteer_calls# code an argument here
   # Your code here
