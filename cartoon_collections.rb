@@ -8,6 +8,7 @@ end
 def summon_captain_planet(calls)
   planet_calls = []
   calls.map do |elements|
+    elements.upcase + "!"
     puts "#{calls}!"
   end
   calls
