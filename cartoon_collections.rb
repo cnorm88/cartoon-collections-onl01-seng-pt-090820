@@ -5,7 +5,8 @@ def roll_call_dwarves(dwarf)
 end
 
 def summon_captain_planet(calls)
-  
+  planet_calls = []
+  calls.map
   
 end
 
