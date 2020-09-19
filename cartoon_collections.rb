@@ -6,10 +6,8 @@ def roll_call_dwarves(dwarf)
 end
 
 def summon_captain_planet(calls)
-  planet_calls = []
   calls.map do |elements|
-    elements.upcase + "!"
-    puts "#{calls}!"
+    "#{calls}!"
   end
   calls
   binding.pry
